@@ -1,0 +1,32 @@
+{
+  "name": "memory-backend",
+  "version": "1.0.0",
+  "description": "JWT token based authentication for Node.js GraphQL Apollo Server",
+  "main": "index.js",
+  "author": "Ghayoor",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "jwt",
+    "apollo server",
+    "mongodb",
+    "graphql",
+    "jsonwebtoken",
+    "bcryptjs",
+    "async await"
+  ],
+  "dependencies": {
+    "apollo-server": "^2.9.3",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.25.1",
+    "graphql": "^14.5.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.2",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}

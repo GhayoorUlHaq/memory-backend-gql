@@ -1,0 +1,6 @@
+*.env
+.env
+.serverless
+.vscode
+node_modules/
+/.idea/vcs.xml
